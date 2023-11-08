@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>netflix</title>
+		<link rel="stylesheet" href="netflix.css"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+		<style>
+        .breaking_bad{
+        	background-position: 100% 100%;
+            position: relative;
+
+        }
+  
+        .first-txt {
+            position: absolute;
+            top: 150px;
+            left: 200px;
+            color: whitesmoke;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+
+        }
+  
+        .second-txt {
+            position: absolute;
+            top: 7px;
+            left: 150px;
+        }
+    </style>
+	</head>
+
+	<body style="background-color: #28282B" >
+		<div class = "topnav" id="myTopNav">
+		<a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+		<a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+		<a href="#series">Watchlist <i class="fa fa-angle-down" aria-hidden="true"></i>
+ </a>
+		<a href="#watchlist">Series</a>
+		<a href="#search">Movies</a>
+		<a href="#bell">Home</a>
+		<img id="logo1" class="logo" src="images/netflix_logo.png">
+		<br><br>
+	</div>
+
+<div  id="border"></div>
+<div class="breaking_bad">
+        <img src="images/breaking_bad.jpg" id="bb" style="width: 100%;">
+        <p class="first-txt">
+        	<br><b id="line1">Duration: 51m</b></br>
+        	<br><b id="line2"><i class="fa fa-star" aria-hidden="true"></i> 7.5 Season <span style="color:#E50914;">1</span> - Episode - <span style="color: #E50914;">Pilot</span></b></br>
+            <br><b id="title1">Breaking Bad</b></br>
+            <br><b id="desc1">Diagnosed with terminal lung cancer, 
+            chemistry teacher Walter White teams up with former student Jesse Pinkman to cook and sell crystal meth.</b></br>
+            <br><br>
+            <button id="button1"><i class="fa fa-play" aria-hidden="true"></i> WATCH</button><button id="button2">+ ADD LIST</button>
+        </p>
+    </div>
+    <!--h3 class="second-txt">Right</h3-- right side text-->
+    <!------------------------------------------>
+  <div class = "list">
+  	<br><br>
+			<ul class = "list2">
+				<li><i class="fa-sharp fa-solid fa-arrow-trend-up"></i> Trending Now</li>
+				<li><i class="fa-sharp fa-solid fa-fire-flame-curved"></i> Popular</li>
+				<li><i class="fa-sharp fa-solid fa-wand-sparkles"></i> Premiers</li>
+				<li><i class="fa-sharp fa-solid fa-circle-plus"></i> Recently Added</li>
+				</ul>
+				<br><br>
+		</div>
+	<div id="border2">
+		<br>
+	</div>
+
+	<div class="genres">
+		<button>Action</button>
+		<button>Adventure</button>
+		<button>Animation</button>
+		<button>Crime</button>
+		<button>Comedy</button>
+		<button>Documentary</button>
+		<button>Drama</button>
+	</div>
+	
+	<br><br>
+	<div id="border3">
+		<br>
+	</div>
+	<!------------------------------------------grid------>
+	
+	<div class="grid-container">
+		<div class="grid-items">
+			<a href="vertigo.html"><img src="images/vertigo.jpg"></a>
+			<div class="details">
+	        <br>
+			<p>Vertigo</p>
+			<small>1958</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye" ></i></i>
+				<i class="fa-sharp fa-solid fa-star" ></i><span style="color:#FFD700;"> 8.6</span></span> 
+				</strong>
+			</div>
+		</div>
+
+	<!----------------------------------------------------------------->
+		<div class="grid-items">
+			<a href="americanpsycho.html"><img src="images/americanpsycho.jpg"></a>
+			<div class="details">
+				<br>
+			<p>American Psycho</p>
+			<small>  2000</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 7.6</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items">
+			<a href="budapest.html"><img src="images/grandbudapest.jpg"></a>
+		<div class="details">
+			<br>
+			<p>The Grand Budapest Hotel</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.1</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items">
+			<a href="lalaland.html"><img src="images/lalaland.png"></a>
+		<div class="details">
+			<br>
+			<p>La La Land</p>
+			<small>2016</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart "></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.0</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items">
+			<a href="whiplash.html"><img src="images/whiplash.jpg"></a>
+		<div class="details">
+			<br>
+			<p>Whiplash</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.5</span></i>
+			</strong>
+			</div>
+		</div>
+    <!----------------------------------------------------------------->
+		<div class="grid-items">
+			<a href="pulpfiction.html"><img src="images/pulpfiction2.jpg"></a>
+		<div class="details">
+			<br>
+			<p>Pulp Fiction</p>
+			<small>1994</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.9</span></i>
+			</strong>
+			</div>
+		</div>
+	</div>
+
+	<!------------------------------------------------------------------>
+	<div id="border4">
+		<br><br>
+	</div>
+	
+<!---------------------------------nav_bar3-------------------------------->
+	<div class = "list">
+  	<br><br>
+			<ul class = "list3">
+				<li><i class="fa-sharp fa-solid fa-clapperboard"></i> Movies</li>
+				<li><i class="fa-sharp fa-solid fa-tv"></i> Series</li>
+				<li><i class="fa-sharp fa-solid fa-check"></i> Original Series</li>
+				<li><i class="fa-sharp fa-solid fa-magnifying-glass"></i> Search</li>
+				</ul>
+				<br><br>
+		</div>
+	<div id="border5">
+		<br><br>
+	</div>
+
+<!---------------------------------buttons2-------------------------------->
+		<div class="genres">
+		<button>Action</button>
+		<button>Adventure</button>
+		<button>Animation</button>
+		<button>Crime</button>
+		<button>Comedy</button>
+		<button>Documentary</button>
+		<button>Drama</button>
+	</div>
+	<br><br>
+<!------------------------------------------------sorts--------------->
+<div class="sort">
+	<b>Sort By: </b>
+	<button>Latest</button>
+	
+	<button>Year <i class="fa-sharp fa-solid fa-caret-down"></i>
+</button>
+	<button>A-Z <i class="fa-sharp fa-solid fa-caret-down"></i></button>
+	<input type="range" min="1" max="10" value="5" id="slider">
+	<i class="fa-sharp fa-solid fa-star" style="color:#FFD700"></i>
+</div>
+
+<!--------------------------------------row1---------------------------------------------->
+<div class="grid-container2">
+		<div class="grid-items2">
+			<img src="images/vertigo.jpg">
+			<div class="details2">
+	        <br>
+			<p>Vertigo</p>
+			<small>1958</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye" ></i></i>
+				<i class="fa-sharp fa-solid fa-star" ></i><span style="color:#FFD700;"> 8.6</span></span> 
+				</strong>
+			</div>
+		</div>
+
+	<!----------------------------------------------------------------->
+		<div class="grid-items2"><img src="images/americanpsycho.jpg">
+			<div class="details2">
+				<br>
+			<p>American Psycho</p>
+			<small>  2000</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 7.6</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items2"><img src="images/grandbudapest.jpg">
+		<div class="details2">
+			<br>
+			<p>The Grand Budapest Hotel</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.1</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items2"><img src="images/lalaland.png">
+		<div class="details2">
+			<br>
+			<p>La La Land</p>
+			<small>2016</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart "></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.0</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items2"><img src="images/whiplash.jpg">
+		<div class="details2">
+			<br>
+			<p>Whiplash</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.5</span></i>
+			</strong>
+			</div>
+		</div>
+    <!----------------------------------------------------------------->
+		<div class="grid-items2"><img src="images/pulpfiction2.jpg">
+		<div class="details2">
+			<br>
+			<p>Pulp Fiction</p>
+			<small>1994</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.9</span></i>
+			</strong>
+			</div>
+		</div>
+	</div>
+	<!------------------------------border7---------------------->
+		</div>
+	<div id="border7">
+		<br>
+	</div>
+<!--------------------------------row2------------------------>
+<div class="grid-container3">
+		<div class="grid-items3">
+			<img src="images/vertigo.jpg">
+			<div class="details3">
+	        <br>
+			<p>Vertigo</p>
+			<small>1958</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye" ></i></i>
+				<i class="fa-sharp fa-solid fa-star" ></i><span style="color:#FFD700;"> 8.6</span></span> 
+				</strong>
+			</div>
+		</div>
+
+	<!----------------------------------------------------------------->
+		<div class="grid-items3"><img src="images/americanpsycho.jpg">
+			<div class="details3">
+				<br>
+			<p>American Psycho</p>
+			<small>  2000</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 7.6</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items3"><img src="images/grandbudapest.jpg">
+		<div class="details3">
+			<br>
+			<p>The Grand Budapest Hotel</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.1</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items3"><img src="images/lalaland.png">
+		<div class="details3">
+			<br>
+			<p>La La Land</p>
+			<small>2016</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart "></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.0</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items3"><img src="images/whiplash.jpg">
+		<div class="details3">
+			<br>
+			<p>Whiplash</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.5</span></i>
+			</strong>
+			</div>
+		</div>
+    <!----------------------------------------------------------------->
+		<div class="grid-items3"><img src="images/pulpfiction2.jpg">
+		<div class="details3">
+			<br>
+			<p>Pulp Fiction</p>
+			<small>1994</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.9</span></i>
+			</strong>
+			</div>
+		</div>
+	</div>
+	<!------------------------------border7---------------------->
+		</div>
+	<div id="border7">
+		<br>
+	</div>
+
+	<!----------------------------------------movie-card------------------------>
+	<br><br>
+	<div class="card">
+        <img src="images/rickandmorty2.jpg"> 
+        <p class="rickandmorty">
+        	<br><br><br><b id="lineA" style="color:white">Duration: 22m</b><br>
+        	<br><b id="title2">Rick and Morty</b></br><br>
+        	<b id="lineB" style="color: white" ;><i class="fa fa-star" aria-hidden="true"></i> 9.1 Season<span style="color:#E50914;"> 1</span> - Episode - <span style="color: #E50914;">Pilot</span></b></br>
+            <br><br><b id="lineC" style="color:white;">Animation | Adventure | Comedy</b>
+        	<br><br><b id="desc2" style="color:white">An animated series that follows the exploits of a super scientist and his not-so-bright grandson.</b></br>
+            <br><br>
+
+            <button id="watch"><i class="fa fa-play" aria-hidden="true"></i> WATCH</button><button id="add-list">+ ADD LIST</button>
+        </p>
+    </div>
+
+    <!---------row3------------------------------------->
+    <div class="grid-container4">
+		<div class="grid-items4">
+			<img src="images/vertigo.jpg">
+			<div class="details4">
+	        <br>
+			<p>Vertigo</p>
+			<small>1958</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye" ></i></i>
+				<i class="fa-sharp fa-solid fa-star" ></i><span style="color:#FFD700;"> 8.6</span></span> 
+				</strong>
+			</div>
+		</div>
+
+	<!----------------------------------------------------------------->
+		<div class="grid-items4"><img src="images/americanpsycho.jpg">
+			<div class="details4">
+				<br>
+			<p>American Psycho</p>
+			<small>  2000</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 7.6</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items4"><img src="images/grandbudapest.jpg">
+		<div class="details4">
+			<br>
+			<p>The Grand Budapest Hotel</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.1</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items4"><img src="images/lalaland.png">
+		<div class="details4">
+			<br>
+			<p>La La Land</p>
+			<small>2016</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart "></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.0</span></i>
+			</strong>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+		<div class="grid-items4"><img src="images/whiplash.jpg">
+		<div class="details4">
+			<br>
+			<p>Whiplash</p>
+			<small>2014</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.5</span></i>
+			</strong>
+			</div>
+		</div>
+    <!----------------------------------------------------------------->
+		<div class="grid-items4"><img src="images/pulpfiction2.jpg">
+		<div class="details4">
+			<br>
+			<p>Pulp Fiction</p>
+			<small>1994</small>
+			<strong>
+				<i class="fa-sharp fa-solid fa-heart"></i>
+				<i class="fa-sharp fa-solid fa-eye"></i>
+				<i class="fa-sharp fa-solid fa-star"><span style="color:#FFD700; font-family: 'Roboto',sans-serif;"> 8.9</span></i>
+			</strong>
+			</div>
+		</div>
+	</div>
+
+	<!------------------------------------------------------------------>
+	<div id="border8">
+		<br><br>
+	</div>
+	
+</body>
+</html>
